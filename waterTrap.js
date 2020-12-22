@@ -7,7 +7,7 @@ waterTrap = (heights) => {
         return 0
     }
 
-    // Declering variabels
+    // Declaring variabels
     let maxRight = -1 
     let maxLeft = -1 
 
@@ -17,7 +17,7 @@ waterTrap = (heights) => {
     let waterTrapped = 0
   
     while (left <= right) {
-        //Geting the max wall height from both sides
+        //Geting the maximum heights from both sides
         maxLeft = heights[left] > maxLeft ? heights[left] : maxLeft
         maxRight = heights[right] > maxRight? heights[right] : maxRight
         
